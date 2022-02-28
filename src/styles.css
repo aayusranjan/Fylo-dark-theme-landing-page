@@ -169,26 +169,26 @@ footer {
 .contacts .gray-p li {
   display: grid;
   grid-template-columns: 10px 150px;
-  gap: 1rem;
+  gap: 16px;
 }
 .contacts .gray-p li img{
-  padding: 1rem 0;
+  padding: 16px 0;
 }
 .social-media {
-  padding: 0 4rem;
+  padding: 22px 64px;
 }
 .social-media ion-icon{
-  padding: 0 5px;
+  padding: 0 8px 16px;
 }
 footer ul {
   list-style: none;
 }
 /* button */
 .cyn-btn {
-  margin-top: 1rem;
+  margin-top: 16px;
   padding: 12px 66px;
   border: none;
-  border-radius: 1.5rem;
+  border-radius: 22px;
   background-color: var(--cyan);
   color: var(--white);
   font-weight: bold;
@@ -196,16 +196,16 @@ footer ul {
 }
 /* Typography */
 h1, h2, h3, h4{
-  padding-top: 1rem;
+  padding-top: 16px;
   color: var(--white);
 }
 a,
 .gray-p {
   color: var(--gray);
-  padding: 1rem 0;
+  padding: 16px 0;
 }
 li {
-  padding-left: 5rem;
+  padding-left: 80px;
 }
 
 a {
@@ -216,4 +216,25 @@ h1 {
   font-size: 30px;
 }
 
-/* images */
+.footer-items a{
+  line-height: 32px;
+}
+
+
+a:hover {
+  color: var(--white);
+}
+.links-section a:hover {
+  text-decoration: underline;
+}
+ion-icon:hover {
+  color: var(--cyan);
+  cursor: pointer;
+}
+button:hover {
+  opacity: 0.8;
+}
+
+.content a:hover {
+  color: var(--white);
+}
